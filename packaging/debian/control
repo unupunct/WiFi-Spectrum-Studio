@@ -1,0 +1,16 @@
+Package: wifispectrum
+Version: @VERSION@
+Section: net
+Priority: optional
+Architecture: @ARCH@
+Maintainer: WiFi Spectrum Studio <maintainers@wifispectrum.studio>
+Installed-Size: @SIZE@
+Depends: python3, python3-pyside6.qtwidgets | python3-pyside6, python3-pyqtgraph, python3-numpy, iw, network-manager
+Recommends: python3-soapysdr
+Description: Wireless spectrum and Wi-Fi analysis studio
+ WiFi Spectrum Studio visualises channel occupancy, congestion and signal
+ strength from real operating-system scan results, keeps a local SQLite
+ history and exports HTML, CSV, JSON and PDF reports.
+ .
+ Wi-Fi curves are channel-shaped visualisations derived from scan data, not
+ FFT measurements. True FFT traces require a supported SoapySDR device.

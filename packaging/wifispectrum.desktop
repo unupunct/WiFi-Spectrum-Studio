@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=WiFi Spectrum Studio
+GenericName=Wireless Analyzer
+Comment=Analyze Wi-Fi channels, congestion and signal strength
+Exec=wifispectrum
+Icon=wifispectrum
+Terminal=false
+Categories=Network;Monitor;Utility;
+Keywords=wifi;wireless;spectrum;channel;signal;network;
+StartupNotify=true
+StartupWMClass=wifispectrum
