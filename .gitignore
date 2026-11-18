@@ -8,3 +8,6 @@ dist/
 .pytest_cache/
 settings.json
 *.log
+
+*.spec
+
