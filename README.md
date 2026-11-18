@@ -13,6 +13,24 @@ dark, instrument-style interface.
 
 ---
 
+## About
+
+**WiFi Spectrum Studio** is a professional, open-source desktop application for
+analysing Wi-Fi environments: live spectrum monitoring, channel planning, waterfall
+visualisation, interference scoring and signal intelligence.
+
+- **Stack:** Python 3.12+, PySide6, pyqtgraph, NumPy, SQLite.
+- **Pages:** Dashboard, Live Spectrum, Channel Analyzer, Network Discovery, Signal
+  Monitor, Frequency Explorer, History & Reports, Hardware, Settings (nine pages,
+  Live Spectrum default).
+- **Sources:** `iw` / NetworkManager on Linux, `netsh` on Windows; optional SoapySDR for
+  true FFT traces; built-in Demo Backend with clearly labelled simulated data.
+- **Honesty:** Wi-Fi curves and waterfalls are channel-shaped visualisations derived
+  from scan observations, not FFT measurements; interference is a relative overlap
+  index (1.00 = busiest channel in band); no fabricated measurement data.
+
+---
+
 ## What this application does — and does not — measure
 
 Being precise about data provenance matters more than a pretty graph.
